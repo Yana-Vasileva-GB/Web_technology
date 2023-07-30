@@ -1,3 +1,45 @@
-h1{
-    color: red;
+@font-face {
+    font-family: 'f1';
+    src: url('fonts/ofont.ru_Behrens\ Modern.ttf')
+}
+
+h1 {
+    color: #be3e07;
+    font-family: 'f1', sans-serif;
+}
+
+h2 {
+    color: blue;
+}
+
+a {
+    color: rgb(3, 116, 7);
+}
+
+a:hover {
+    color: rgb(226, 43, 153);
+}
+
+body {
+    background-color: rgb(162, 246, 186);
+}
+
+img {
+    width: 400px;
+    border: 3px solid black;
+    margin-left: 20px;
+}
+
+.big_text {
+    font-size: 1.5rem;
+}
+
+ul {
+    list-style-type: square;
+}
+
+#wrapper {
+    width: 600px;
+    margin: 0 auto;
+    background-color: rgb(249, 244, 110);
 }
